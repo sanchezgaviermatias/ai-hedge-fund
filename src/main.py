@@ -20,7 +20,7 @@ def run_hedge_fund(ticker: str, start_date: str, end_date: str, portfolio: dict,
         {
             "messages": [
                 HumanMessage(
-                    content="Make a trading decision based on the provided data.",
+                    content="Makes a trading decision based on the provided data.",
                 )
             ],
             "data": {
